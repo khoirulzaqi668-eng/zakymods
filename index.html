@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khoirul Zaqi | Links</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        :root {
+            --bg-color: #f4f5f7;
+            --text-color: #333;
+            --card-bg: #ffffff;
+            --btn-hover: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            width: 100%;
+            max-width: 400px;
+            border-radius: 24px;
+            padding: 40px 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        p.bio {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            text-decoration: none;
+            color: var(--text-color);
+            background-color: var(--card-bg);
+            padding: 16px;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+        }
+
+        .link-btn:hover,
+        .link-btn:active {
+            background-color: var(--btn-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .link-btn i {
+            position: absolute;
+            left: 20px;
+            font-size: 1.2rem;
+        }
+
+        .fa-tiktok {
+            color: #000000;
+        }
+        .fa-instagram {
+            color: #E1306C;
+        }
+        .fa-whatsapp {
+            color: #25D366;
+        }
+        .fa-youtube {
+            color: #FF0000;
+        }
+        .fa-telegram {
+            color: #26A5E4;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://cdn.phototourl.com/free/2026-07-11-5819b5a8-ce68-4133-a5a4-599be3dc878b.jpg" alt="ZakyMods" class="profile-img" />
+
+        <h1>ZakyMods</h1>
+        <p class="bio">Modding & Fishing</p>
+
+        <div class="links">
+            <!-- TikTok -->
+            <a href="https://vm.tiktok.com/ZS9MXgqXVQ1xF-Lx4NS/" target="_blank" class="link-btn">
+                <i class="fa-brands fa-tiktok"></i>
+                TikTok
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/zakymods" target="_blank" class="link-btn">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://whatsapp.com/channel/0029Vb8BTxiIXnlk7EyAMp0z" target="_blank" class="link-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                Saluran WhatsApp
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/@zakmods404" target="_blank" class="link-btn">
+                <i class="fa-brands fa-youtube"></i>
+                YouTube
+            </a>
+
+            <!-- Telegram -->
+            <a href="https://t.me/zaky_the_bot" target="_blank" class="link-btn">
+                <i class="fa-brands fa-telegram"></i>
+                Telegram
+            </a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Khoirul Zaqi. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
